@@ -54,7 +54,7 @@ $(OBJDIR)/%.o: %.c
 all: libmlx $(NAME)
 
 libmlx:
-	@make all -C ./MLX42/build
+	@(cd MLX42 && cmake -B build && make all -C build)
 
 $(NAME): $(OBJS) $(LIBFT)
 	@$(CC) $(OBJS) $(LIBS) $(LIBFT) -o $(NAME)
@@ -67,9 +67,10 @@ $(LIBFT):
 
 clean:
 	@make clean -C ./MLX42/build
+	@rm -rf ./MLX42/build
 	@make clean -C $(LIBFT_DIR)
 	@echo Removed libft object files
-	@rm -f $(OBJS)
+	@rm -rf $(OBJS)
 	@echo Removed cub3D object files
 	@rm -rf $(OBJDIR)
 
