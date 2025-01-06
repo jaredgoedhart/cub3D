@@ -1,0 +1,19 @@
+R 800 600
+NO ./textures/windowsXP/windowsXP.png
+EA ./textures/windowsXP/windowsXP.png
+SO ./textures/windowsXP/windowsXP.png
+WE ./textures/windowsXP/windowsXP.png
+
+F 64,90,19
+C 60,150,231
+S ./textures/windowsXP/windowsLogoXp.png
+
+111111111
+100000001
+100000001
+100000001
+100020001
+100000001
+1000N0001
+100000001
+111111111
