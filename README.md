@@ -92,7 +92,7 @@ Click the image above to watch a gameplay demonstration.
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
 ## 👥 Authors
 
@@ -101,6 +101,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 🙏 Acknowledgments
 
-- 42 Network for the project inspiration
 - MLX42 Graphics Library
 - Wolfenstein 3D for the ray-casting concept
