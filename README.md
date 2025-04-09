@@ -96,8 +96,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👥 Authors
 
-- [Jared Goedhart](https://github.com/jaredgoedhart)
 - [Luca Goddijn](https://github.com/DontCallMeLuca)
+- [Jared Goedhart](https://github.com/jaredgoedhart)
 
 ## 🙏 Acknowledgments
 
